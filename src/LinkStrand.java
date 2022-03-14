@@ -97,11 +97,6 @@ public class LinkStrand implements IDnaStrand{
             throw new IndexOutOfBoundsException();
         }
 
-//         if index > size of the node, throw index out of bounds exception
-// if index < myIndex, reset the global variables myINdex, myLocal Index and myCurrent to 0 (myccurent = myFirst)
-// while loop
- 
-
         if (index <= myIndex) {
             myIndex = 0;
             myLocalIndex = 0;
